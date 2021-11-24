@@ -11,21 +11,21 @@
   <main class="main">
     <p id="main__section"><label class="label" for="new-task">Add Item</label>
       <section class="main__section__wrapper">
-        <input class="input" id="new-task"class="task" type="text"><button class="button">Add</button>
+        <input class="input task" id="new-task"class="task" type="text"><button class="button">Add</button>
       </section>
     </p>
     <h3 class="h3">Todo</h3>
     <ul class="ul" id="main__incomplete">
       <li class="li">
-        <input class="input" type="checkbox"><label class="label task">Pay Bills</label><input class="input" type="text" class="task"><button class="button edit">Edit</button><button class="button delete"><img class="img" src="./remove.svg" alt="remove_button"></button>
+        <input class="input" type="checkbox"><label class="label task">Pay Bills</label><input class="input task" type="text"><button class="button edit">Edit</button><button class="button delete"><img class="img" src="./remove.svg" alt="remove_button"></button>
       </li>
       <li class="li edit-mode">
-        <input class="input" type="checkbox"><label class="label task">Go Shopping</label><input class="input" type="text" value="Go Shopping" class="task"><button class="button edit">Save</button><button class="button delete"><img class="img" src="./remove.svg" alt="remove_button"></button>
+        <input class="input" type="checkbox"><label class="label task">Go Shopping</label><input class="input task" type="text" value="Go Shopping"><button class="button edit">Save</button><button class="button delete"><img class="img" src="./remove.svg" alt="remove_button"></button>
       </li>
     </ul>
     <h3 class="h3">Completed</h3>
     <ul class="ul" id="main__completed">
-      <li class="li"><input type="checkbox" checked>
+      <li class="li"><input class="input" type="checkbox" checked>
         <label class="label task">See the Doctor</label><input class="input" type="text" class="task"><button class="button edit">Edit</button><button class="button delete"><img class="img" src="./remove.svg" alt="remove_button"></button>
       </li>
     </ul>
